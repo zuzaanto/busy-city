@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace busy_city
 {
-    class Scooter
+    public class Scooter
     {
+        public double pos_x;
+        public double pos_y;
+        public double velocity;
+        public bool idle;
     }
 }

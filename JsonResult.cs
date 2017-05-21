@@ -7,17 +7,6 @@ using Newtonsoft.Json;
 
 namespace busy_city
 {
-    public class JsonResult
-    {
-        [JsonProperty("geocoded_waypoints", NullValueHandling = NullValueHandling.Ignore)]
-        public Waypoints[] Waypoint { get; set; }
-
-        [JsonProperty("status", NullValueHandling = NullValueHandling.Ignore)]
-        public string status { get; set; }
-
-        [JsonProperty("routes", NullValueHandling = NullValueHandling.Ignore)]
-        public Routes routes { get; set; }
-    }
 
     public class Waypoints
     {
@@ -26,7 +15,7 @@ namespace busy_city
         public string[] Types { get; set; }
 
     }
-    public class Routes
+    public class routes
     {
         [JsonProperty("legs")]
         public DirectionLeg[] Legs { get; set; }

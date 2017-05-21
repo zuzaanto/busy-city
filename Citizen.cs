@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace busy_city
 {
-    class Citizen
+    public class Citizen
     {
+
+        public double pos_x;
+        public double pos_y;
+        public double dest_x;
+        public double dest_y;
+
+        public double velocity;
+        public string status;
+
     }
 }

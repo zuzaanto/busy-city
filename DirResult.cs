@@ -9,10 +9,13 @@ namespace busy_city
 {
     public class DirResult
     {
-        [JsonProperty("results", NullValueHandling = NullValueHandling.Ignore)]
-        public JsonResult[] Result { get; set; }
+        [JsonProperty("geocoded_waypoints", NullValueHandling = NullValueHandling.Ignore)]
+        public Waypoints[] Waypoint { get; set; }
 
         [JsonProperty("status", NullValueHandling = NullValueHandling.Ignore)]
-        public string Status { get; set; }
+        public string status { get; set; }
+
+        [JsonProperty("routes", NullValueHandling = NullValueHandling.Ignore)]
+        public routes[] routes { get; set; }
     }
 }

@@ -42,7 +42,7 @@ namespace busy_city
                 string formatAddress = string.Format(GGeoCodeJsonServiceUrl, sO.Append(Uri.EscapeUriString(dirpar.Origin)), sD.Append(Uri.EscapeUriString(dirpar.Destination)), sM.Append(Uri.EscapeUriString(dirpar.Mode)), sA.Append(Uri.EscapeUriString(dirpar.Avoid)), sU.Append(Uri.EscapeUriString(dirpar.Units)), Key);
                 var result = client.DownloadString(formatAddress);
                 var O = JsonConvert.DeserializeObject<DirResult>(result);
-                SetGeoResultFlag(O.Status);
+                SetGeoResultFlag(O.status);
                 return O;
             }
         }

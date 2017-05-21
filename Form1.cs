@@ -16,5 +16,15 @@ namespace busy_city
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            city.lng = Convert.ToDouble(textBox1.Text);
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            city.lati = Convert.ToDouble(textBox2.Text);
+        }
     }
 }

@@ -22,3 +22,4 @@ C:\Users\Zuza\Source\Repos\busy-city\obj\Debug\busy_city.Properties.Resources.re
 C:\Users\Zuza\Source\Repos\busy-city\obj\Debug\busy-city.csproj.GenerateResource.Cache
 C:\Users\Zuza\Source\Repos\busy-city\obj\Debug\busy-city.exe
 C:\Users\Zuza\Source\Repos\busy-city\obj\Debug\busy-city.pdb
+C:\Users\Zuza\Source\Repos\busy-city\obj\Debug\busy_city.Form1.resources
