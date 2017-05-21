@@ -16,5 +16,7 @@ namespace busy_city
         public static double max_y { get; set; }
         public static double min_y { get; set; }
 
+
+
     }
 }

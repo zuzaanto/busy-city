@@ -16,6 +16,7 @@ namespace busy_city
 
         public double velocity;
         public string status;
-
+        public int CitsScooter;
+        public int timeToWait;//or rather 'iterations to wait'
     }
 }

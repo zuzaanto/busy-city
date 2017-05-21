@@ -20,10 +20,27 @@ namespace busy_city
         [JsonProperty("legs")]
         public DirectionLeg[] Legs { get; set; }
 
+        
+
 
     }
+    public class Steps
+    {
+        [JsonProperty("distance")]
+        public ValueText Distance { get; set; }
+
+        [JsonProperty("start_location")]
+        public Location StartLocation { get; set; }
+
+        [JsonProperty("end_location")]
+        public Location EndLocation { get; set; }
+    }
+
     public class DirectionLeg
     {
+        [JsonProperty("steps")]
+        public Steps[] Steps { get; set; }
+
         [JsonProperty("distance")]
         public ValueText Distance { get; set; }
 
@@ -36,7 +53,7 @@ namespace busy_city
     public class ValueText
     {
         [JsonProperty("value")]
-        public string Value { get; set; }
+        public double Value { get; set; }
 
         [JsonProperty("text")]
         public string Text { get; set; }
@@ -49,10 +66,10 @@ namespace busy_city
         public class Location
     {
         [JsonProperty("lat", NullValueHandling = NullValueHandling.Ignore)]
-        public string Lat { get; set; }
+        public double Lat { get; set; }
 
         [JsonProperty("lng", NullValueHandling = NullValueHandling.Ignore)]
-        public string Long { get; set; }
+        public double Long { get; set; }
     }
 }
 
