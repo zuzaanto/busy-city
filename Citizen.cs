@@ -18,5 +18,12 @@ namespace busy_city
         public string status;
         public int CitsScooter;
         public int timeToWait;//or rather 'iterations to wait'
+
+        public Location[] stepsToDir;
+        public double[] x_stepsToDir;
+        public int stepInd;
+        public int stepCount;
+
+     //   public Location[] stepsToDir;
     }
 }
