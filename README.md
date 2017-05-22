@@ -43,6 +43,7 @@ citizen is on his last step - he makes it, and this time the scooter is free to 
 he starts driving it, and throws away the map he was using (or the google route).
 
 [cases of driving:]
+
 5th case:
 citizen is on scooter, he has no map. He wants to go to his destination.
 he gets directions from google maps. 
