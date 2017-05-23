@@ -103,6 +103,7 @@ namespace busy_city
                             //finding route
                             if (Citis[i].stepsToDir == null)
                             {
+                                closestScootInd = 0;
                                 for (int j = 0; j < 20; j++)
                                 {
                                     if (Scoots[j].idle && (Math.Pow(Citis[i].pos_x - Scoots[j].pos_x, 2) + Math.Pow(Citis[i].pos_y - Scoots[j].pos_y, 2) < ScootsDist))
