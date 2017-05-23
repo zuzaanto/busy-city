@@ -83,7 +83,7 @@ namespace busy_city
             string export;
             var g = new Coding();
             //!!!!!!!!!!!!paste your own Google Api Key here: 
-            g.Key = "AIzaSyBX44diSFIMl07UUFO_dY33DOW6JyWGFQU";
+            g.Key = "KEY";
             System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\Users\\Zuza\\Source\\Repos\\ositions1.txt");
 
             //while (true)
