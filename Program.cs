@@ -84,7 +84,7 @@ namespace busy_city
             var g = new Coding();
             //!!!!!!!!!!!!paste your own Google Api Key here: 
             g.Key = "KEY";
-            System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\Users\\Zuza\\Source\\Repos\\ositions1.txt");
+            System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\positions1.txt");
 
             //while (true)
             for (int kj=0;kj<1000;kj++)
