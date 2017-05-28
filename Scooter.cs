@@ -12,5 +12,10 @@ namespace busy_city
         public double pos_y;
         public double velocity;
         public bool idle;
+        public void MovScoot(double new_pos_x,double new_pos_y)
+        {
+            pos_x = new_pos_x;
+            pos_y = new_pos_y;
+        }
     }
 }
