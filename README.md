@@ -25,22 +25,22 @@ there are 7 cases of citizen-scooter interaction:
 
 1st case:
 citizen has no map, so he:
-finds the closest scooter
-gets the directions from google api to it
-makes his first move in the direction of Google's first step (walking paths are suggested by google)
+-finds the closest scooter
+-gets the directions from google api to it
+-makes his first move in the direction of Google's first step (walking paths are suggested by google)
 
 2nd case:
 citizen knows where to go, but isn't there yet.
 he makes his moves and checks which google step he is on (column 3 in txt file).
 
 3rd case:
-citizen is on his last step - he makes it, and then finds out that the scooter he was aiming for is already taken.
-he decides to find another one.
-he has to get new google directions for that.
+-citizen is on his last step - he makes it, and then finds out that the scooter he was aiming for is already taken.
+-he decides to find another one.
+-he has to get new google directions for that.
 
 4th case:
-citizen is on his last step - he makes it, and this time the scooter is free to take!
-he starts driving it, and throws away the map he was using (or the google route).
+-citizen is on his last step - he makes it, and this time the scooter is free to take!
+-he starts driving it, and throws away the map he was using (or the google route).
 
 [cases of driving:]
 
